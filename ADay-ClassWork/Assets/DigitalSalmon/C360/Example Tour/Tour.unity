@@ -472,11 +472,11 @@ PrefabInstance:
     - target: {fileID: 114814261744376768, guid: f3cfd890529c4034c8240d0b7b0507d8, type: 3}
       propertyPath: tour
       value: 
-      objectReference: {fileID: 11400000, guid: bd1c948be0093a8478c7f11afb57b143, type: 2}
+      objectReference: {fileID: 11400000, guid: d7a83be760b20cb478688ab2c3efbf89, type: 2}
     - target: {fileID: 114814261744376768, guid: f3cfd890529c4034c8240d0b7b0507d8, type: 3}
       propertyPath: entryNode
       value: 
-      objectReference: {fileID: 829318939991073187, guid: bd1c948be0093a8478c7f11afb57b143, type: 2}
+      objectReference: {fileID: -5868205939801763329, guid: d7a83be760b20cb478688ab2c3efbf89, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3cfd890529c4034c8240d0b7b0507d8, type: 3}
 --- !u!1001 &1314950470

@@ -1,0 +1,378 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5946991228222800090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -685964851, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: golden gate bridge bank
+  m_EditorClassIdentifier: 
+  name: golden gate bridge bank
+  position: {x: 210, y: 120}
+  overrideHospot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  elements:
+    elements:
+    - {fileID: -5359122548966725820}
+    - {fileID: 2234365479510351662}
+    - {fileID: 3339810207243826628}
+  entryYaw: 0.5
+  isStereoscopic: 0
+  projection: 0
+  customData: 
+  loop: 0
+  durationMs: 0
+  previewMs: 2000
+  textureLoadDatas:
+  - Texture: {fileID: 2800000, guid: 20ecc09fb9ba1da42ae51ca20895b01f, type: 3}
+  urlLoadDatas: []
+--- !u!114 &-5868205939801763329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -685964851, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: golden gate bridge mountain
+  m_EditorClassIdentifier: 
+  name: golden gate bridge mountain
+  position: {x: 120, y: 330}
+  overrideHospot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  elements:
+    elements:
+    - {fileID: -5208919369171635257}
+    - {fileID: -3979459362834772335}
+  entryYaw: 0.5
+  isStereoscopic: 0
+  projection: 0
+  customData: 
+  loop: 0
+  durationMs: 0
+  previewMs: 2000
+  textureLoadDatas:
+  - Texture: {fileID: 2800000, guid: 71003df94e6f20a4892632b9781aebfc, type: 3}
+  urlLoadDatas: []
+--- !u!114 &-5535903955084611462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] golden gate bridge underside -> golden gate bridge bank'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 8257526337541227293}
+  targetNode: {fileID: -5946991228222800090}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.32886466, y: 0.46166733}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &-5519864995493367344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] golden gate bridge underside -> golden gate bridge side'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 8257526337541227293}
+  targetNode: {fileID: -4562404926557087494}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.274403, y: 0.300377}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &-5359122548966725820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] golden gate bridge bank -> golden gate bridge side'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: -5946991228222800090}
+  targetNode: {fileID: -4562404926557087494}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.19375785, y: 0.47214073}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &-5208919369171635257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] golden gate bridge mountain -> golden gate bridge bank'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: -5868205939801763329}
+  targetNode: {fileID: -5946991228222800090}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.92165893, y: 0.5852534}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &-4562404926557087494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -685964851, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: golden gate bridge side
+  m_EditorClassIdentifier: 
+  name: golden gate bridge side
+  position: {x: 450, y: 30}
+  overrideHospot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  elements:
+    elements:
+    - {fileID: 8082586405915447012}
+    - {fileID: -2183295841190150734}
+  entryYaw: 0.5
+  isStereoscopic: 0
+  projection: 0
+  customData: 
+  loop: 0
+  durationMs: 0
+  previewMs: 2000
+  textureLoadDatas:
+  - Texture: {fileID: 2800000, guid: 77e8a5cefdcbe6d45b8114de715654e1, type: 3}
+  urlLoadDatas: []
+--- !u!114 &-3979459362834772335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] golden gate bridge mountain -> golden gate bridge underside'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: -5868205939801763329}
+  targetNode: {fileID: 8257526337541227293}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.6996229, y: 0.53288645}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &-2183295841190150734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] golden gate bridge side -> golden gate bridge underside'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: -4562404926557087494}
+  targetNode: {fileID: 8257526337541227293}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.25659823, y: 0.66485125}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -234030243, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: golden gate bridge
+  m_EditorClassIdentifier: 
+  defaultHotspot:
+    Hotspot: {fileID: 1197682564197598, guid: 4f174464c3dcaab458158a146d582ca5, type: 3}
+    Icon: {fileID: 2800000, guid: 411b3ac736009d74e92415e531b65a21, type: 3}
+  graphBackground: {fileID: 0}
+  graphBackgroundSize: 1000
+  graphBackgroundAlpha: 1
+  graphOffset: {x: 0, y: 0}
+  graphZoom: 1
+  nodeCollection:
+    nodes:
+    - {fileID: -5946991228222800090}
+    - {fileID: -4562404926557087494}
+    - {fileID: -5868205939801763329}
+    - {fileID: 8257526337541227293}
+--- !u!114 &2234365479510351662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] golden gate bridge bank -> golden gate bridge mountain'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: -5946991228222800090}
+  targetNode: {fileID: -5868205939801763329}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.73942184, y: 0.47842476}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &3339810207243826628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] golden gate bridge bank -> golden gate bridge underside'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: -5946991228222800090}
+  targetNode: {fileID: 8257526337541227293}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.079597816, y: 0.49727687}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &8082586405915447012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] golden gate bridge side -> golden gate bridge bank'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: -4562404926557087494}
+  targetNode: {fileID: -5946991228222800090}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.5561374, y: 0.5056556}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
+--- !u!114 &8257526337541227293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -685964851, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: golden gate bridge underside
+  m_EditorClassIdentifier: 
+  name: golden gate bridge underside
+  position: {x: 420, y: 360}
+  overrideHospot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  elements:
+    elements:
+    - {fileID: -5535903955084611462}
+    - {fileID: 8400689761449988870}
+    - {fileID: -5519864995493367344}
+  entryYaw: 0.5
+  isStereoscopic: 0
+  projection: 0
+  customData: 
+  loop: 0
+  durationMs: 0
+  previewMs: 2000
+  textureLoadDatas:
+  - Texture: {fileID: 2800000, guid: 3a4d575630f8a1248bda3504478040d3, type: 3}
+  urlLoadDatas: []
+--- !u!114 &8400689761449988870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1359870701, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Hotspot] golden gate bridge underside -> golden gate bridge mountain'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: 8257526337541227293}
+  targetNode: {fileID: -5868205939801763329}
+  overrideHotspot: 0
+  hotspotOverride:
+    Hotspot: {fileID: 0}
+    Icon: {fileID: 0}
+  position: {x: 0.6891495, y: 0.5035609}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
