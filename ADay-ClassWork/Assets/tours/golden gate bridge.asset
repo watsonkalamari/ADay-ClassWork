@@ -18,6 +18,24 @@ MonoBehaviour:
   useTimeline: 0
   entryTime: 0
   exitTime: 0
+--- !u!114 &-7777492180979216330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1697449978, guid: 0baa6cf1b0f41754dba158fec06028c6, type: 3}
+  m_Name: '[Prefab] golden gate bridge mountain | DisplayNamePop'
+  m_EditorClassIdentifier: 
+  ownerNode: {fileID: -5868205939801763329}
+  prefab: {fileID: 2153535985277851892, guid: 05c8b892fd57a384eaa3e22d41a2e8e3, type: 3}
+  position: {x: 0.78236276, y: 0.47004604}
+  useTimeline: 0
+  entryTime: 0
+  exitTime: 0
 --- !u!114 &-5946991228222800090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75,6 +93,7 @@ MonoBehaviour:
     - {fileID: -3979459362834772335}
     - {fileID: 8323455121694262712}
     - {fileID: -9057341936543955083}
+    - {fileID: -7777492180979216330}
   entryYaw: 0.5
   isStereoscopic: 0
   projection: 0
