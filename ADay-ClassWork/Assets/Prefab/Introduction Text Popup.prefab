@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3112637540287597798
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1470141204089562, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_Name
+      value: Introduction Text Popup
+      objectReference: {fileID: 0}
+    - target: {fileID: 4190444002528882, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4190444002528882, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4190444002528882, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4190444002528882, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4190444002528882, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4190444002528882, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4190444002528882, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4190444002528882, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4190444002528882, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4190444002528882, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4190444002528882, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114712809421427572, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: sizeB
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 114918193248975152, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114918193248975152, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_Color.b
+      value: 0.3962264
+      objectReference: {fileID: 0}
+    - target: {fileID: 114918193248975152, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_Color.g
+      value: 0.10917924
+      objectReference: {fileID: 0}
+    - target: {fileID: 114918193248975152, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_Color.r
+      value: 0.10690638
+      objectReference: {fileID: 0}
+    - target: {fileID: 224131920372084532, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224131920372084532, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224131920372084532, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224131920372084532, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224131920372084532, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224658423966714766, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224658423966714766, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224658423966714766, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224658423966714766, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224658423966714766, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224872414812672102, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224872414812672102, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224872414812672102, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224872414812672102, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224872414812672102, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 396269565891585631, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_text
+      value: "The Golden Gate Bridge is a suspension bridge spanning the Golden Gate
+        strait. It is one of the most internationally recognized symbols of San Fransisco
+        and California.  \r\n\r\nIt was initially designed by engineer Joseph Strauss
+        in 1917. The bridge was named for the Golden Gate strait. At the time of
+        its opening in 1937, it was both the longest and tallest suspension bridge
+        in the world. It held those titles until 1964 and 1998 respectively. \n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 530159457135700204, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_Spacing
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8033926676042655941, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8674f1b5661edd644bab0b23d61c262a, type: 3}
